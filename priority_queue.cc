@@ -1,3 +1,5 @@
+/* Copyright ~~~~ */
+
 #include "priority_queue.h"
 
 namespace code_review {
