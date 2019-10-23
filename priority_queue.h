@@ -1,5 +1,10 @@
+#ifndef PRIORITY_QUEUE_H_
+#define PRIORITY_QUEUE_H_
+
 #include <queue>
 
+namespace code_review {
+	
 template <typename T> 
 class templatePriorityQueue {
 	private:
@@ -13,3 +18,7 @@ class templatePriorityQueue {
 		void push(const T&);
 		void pop();	
 };
+
+} // namespace code_review
+
+#endif // PRIORITY_QUEUE_H_
