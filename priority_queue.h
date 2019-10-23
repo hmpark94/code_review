@@ -1,3 +1,5 @@
+/* Copyright ~~~~ */
+
 #ifndef PRIORITY_QUEUE_H_
 #define PRIORITY_QUEUE_H_
 
