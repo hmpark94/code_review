@@ -5,35 +5,35 @@
 namespace code_review {
         
 template <>
-templatePriorityQueue<int>::templatePriorityQueue() {
+TemplatePriorityQueue<int>::TemplatePriorityQueue() {
 }
 
 template <>
-templatePriorityQueue<int>::~templatePriorityQueue() {
+TemplatePriorityQueue<int>::~TemplatePriorityQueue() {
 }
 
 template <>
-bool templatePriorityQueue<int>::empty() const {
+bool TemplatePriorityQueue<int>::empty() const {
         return storage.empty();
 }
 
 template <>
-int templatePriorityQueue<int>::size() {
+int TemplatePriorityQueue<int>::size() {
         return storage.size();
 }
 
 template <>
-const int& templatePriorityQueue<int>::top() const {
+const int& TemplatePriorityQueue<int>::top() const {
         return storage.top();
 }
 
 template <>
-void templatePriorityQueue<int>::pop() {
+void TemplatePriorityQueue<int>::pop() {
         storage.pop();
 }
 
 template <>
-void templatePriorityQueue<int>::push(const int& val) {
+void TemplatePriorityQueue<int>::push(const int& val) {
         storage.push(val);
 }
 
